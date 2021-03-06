@@ -1,3 +1,133 @@
-baseURL = "http://example.org/"
+DefaultContentLanguage = "en"
+baseurl = "https://example.com"
+disqusShortname = "hugo-theme-stack"
 languageCode = "en-us"
-title = "My New Hugo Site"
+paginate = 5.0
+theme = "hugo-theme-stack"
+title = "Example Site"
+
+[permalinks]
+page = "/:slug/"
+post = "/p/:slug/"
+
+[params]
+featuredImageField = "image"
+mainSections = [
+  "post",
+]
+rssFullContent = true
+
+[params.footer]
+since = 2020.0
+
+[params.dateFormat]
+lastUpdated = "Jan 02, 2006 15:04 MST"
+published = "Jan 02, 2006"
+
+[params.sidebar]
+emoji = "🚀"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+[params.sidebar.avatar]
+local = true
+src = "img/avatar.png"
+
+[params.article]
+math = false
+
+[params.article.license]
+default = "Licensed under CC BY-NC-SA 4.0"
+enabled = true
+
+[params.comments]
+enabled = true
+provider = "disqus"
+
+[params.comments.utterances]
+issueTerm = "pathname"
+
+[params.comments.remark42]
+
+[params.widgets]
+enabled = [
+  "search",
+  "archives",
+  "tag-cloud",
+]
+
+[params.widgets.archives]
+limit = 5.0
+
+[params.widgets.tagCloud]
+limit = 10.0
+
+[params.opengraph]
+
+[params.opengraph.twitter]
+card = "summary_large_image"
+
+[params.defaultImage]
+
+[params.defaultImage.opengraph]
+enabled = false
+local = false
+
+[params.colorScheme]
+default = "auto"
+toggle = true
+
+[params.imageProcessing]
+
+[params.imageProcessing.cover]
+enabled = true
+
+[params.imageProcessing.content]
+enabled = true
+
+[menu]
+
+[[menu.main]]
+identifier = "home"
+name = "Home"
+pre = "home"
+url = "/"
+weight = -100.0
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+pre = "user"
+url = "about"
+weight = -90.0
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+pre = "archives"
+url = "archives"
+weight = -70.0
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+pre = "search"
+url = "search"
+weight = -60.0
+
+[related]
+includeNewer = true
+threshold = 60.0
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100.0
+
+[[related.indices]]
+name = "categories"
+weight = 200.0
+
+[markup]
+
+[markup.highlight]
+noClasses = false
