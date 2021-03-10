@@ -1,11 +1,19 @@
 DefaultContentLanguage = "en"
 baseurl = "https://example.com"
 disqusShortname = "hugo-theme-stack"
-languageCode = "en-us"
 paginate = 5.0
 theme = "hugo-theme-stack"
-title = "Example Site"
 
+[languages]
+[languages.pl]
+LanguageName = "Polski"
+title = "Obserwatorium Astronomiczne w Radomyślu Wielkim"
+[languages.en]
+LanguageName = "English"
+title = "Astronomical Observatory in Radomysl Wielki"
+[languages.fr]
+LanguageName = "French"
+title = "Observatoire astronomique de Radomysl Wielki"
 [permalinks]
 page = "/:slug/"
 post = "/p/:slug/"
