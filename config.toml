@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-baseurl = "https://example.com"
+# baseurl = "https://example.com"
 disqusShortname = "hugo-theme-stack"
 paginate = 5.0
 theme = "hugo-theme-stack"
