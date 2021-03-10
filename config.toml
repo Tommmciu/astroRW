@@ -6,12 +6,15 @@ theme = "hugo-theme-stack"
 
 [languages]
 [languages.pl]
+LanguageCode = "pl"
 LanguageName = "Polski"
 title = "Obserwatorium Astronomiczne w Radomyślu Wielkim"
 [languages.en]
+LanguageCode = "en"
 LanguageName = "English"
 title = "Astronomical Observatory in Radomysl Wielki"
 [languages.fr]
+LanguageCode = "fr"
 LanguageName = "French"
 title = "Observatoire astronomique de Radomysl Wielki"
 [permalinks]
