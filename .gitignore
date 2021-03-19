@@ -1,7 +1,7 @@
 # Hugo default output directory
 /public
 /themes/*/exampleSite
-
+/resources
 ## OS Files
 # Windows
 Thumbs.db

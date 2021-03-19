@@ -2,10 +2,21 @@ baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
 
-# Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+Languages:
+    en:
+        title: Astronomical Observatory in Radomyśl Wielki
+        LanguageName: English
+    pl:
+        title: Obserwatorium Astronomiczne w Radomyślu Wielkim
+        LanguageName: Polski
+    fr:
+        title: Observatoire astronomique de Radomyśl Wielki
+        LanguageName: Française
+
+
+# # Change it to your Disqus shortname before using
+# disqusShortname: hugo-theme-stack
 
 # GA Tracking ID
 googleAnalytics:
@@ -15,7 +26,7 @@ googleAnalytics:
 DefaultContentLanguage: en
 
 permalinks:
-    post: /p/:slug/
+    post: /post/:slug/
     page: /:slug/
 
 params:
@@ -26,7 +37,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2017
         customText:
 
     dateFormat:
@@ -34,8 +45,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🚀
+        # subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             local: true
             src: img/avatar.png
