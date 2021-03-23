@@ -15,3 +15,6 @@ steps:
 
 - script: hugo version
   displayName: 'check hugo version'
+  
+- script: hugo -D
+  displayName: 'build site'
