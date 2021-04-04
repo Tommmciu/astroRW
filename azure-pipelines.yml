@@ -10,8 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: sudo snap install hugo --channel=extended
-  displayName: 'Install hugo'
+- script: curl -L -o hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.82.0/hugo_extended_0.82.0_Linux-64bit.deb
+  displayName: 'Download Hugo'
+
+- script: dpkg -i hugo.deb
+  displayName: 'Install Hugo'
 
 - script: hugo version
   displayName: 'check hugo version'
