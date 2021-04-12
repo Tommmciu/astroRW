@@ -1,6 +1,6 @@
 ---
-title: About
-description: Hugo, the world's fastest framework for building websites
+title: O nas
+description: Skład
 date: '2019-02-28'
 aliases:
   - about-us
@@ -14,4 +14,12 @@ menu:
         pre: user
 ---
 
-francja
+FR team
+
+* Janusz 
+* Dominik
+* Jacek
+* Mateo
+* Adrian
+* Tomek
+* Spidi
