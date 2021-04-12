@@ -1,21 +1,17 @@
 +++
-author = "Hugo Authors"
-title = "Markdown Syntax Guide"
-date = "2019-03-11"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+author = "Author"
+title = "English Title"
+date = "2021-04-12"
+description = "First example post"
 tags = [
-    "markdown",
-    "css",
-    "html",
-    "themes",
+    "test",
+    "astro"
 ]
 categories = [
-    "themes",
-    "syntax",
+    "new",
+    "example"
 ]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
 +++
 
 
-en
+English content written in markdown
