@@ -55,8 +55,9 @@
         {{ end }}
         <li class="language-list">
             <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-                {{ range $.Site.Home.AllTranslations }}
-                <a href="{{ .Permalink }}" style="margin: 0.15em;">{{ .Language.LanguageName }}</a>
+                {{ range .Translations }}
+                <a href="{{ .RelPermalink }}" style="margin: 0.15em;">
+                    {{ .Language.LanguageName }}</a>
                 {{ end }}
             </div>
         </li>
