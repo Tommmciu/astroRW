@@ -1,7 +1,7 @@
 # languageCode: en-us
 theme: hugo-theme-stack
 paginate: 10
-
+BaseURL: "/"
 relativeURLs: true
 
 Languages:
