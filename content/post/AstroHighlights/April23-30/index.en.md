@@ -8,6 +8,7 @@ tags = [
 categories = [
     "Astro Highlights"
 ]
+image = "background.jpg"
 +++
 
 #AstroHighlights of the week (April 23-30)

@@ -8,6 +8,7 @@ tags = [
 categories = [
     "Astro Highlights"
 ]
+image = "background.jpg"
 +++
 
 
