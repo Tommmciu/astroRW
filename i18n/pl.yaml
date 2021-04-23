@@ -1,0 +1,56 @@
+toggleMenu:
+    other: Przełącz menu
+
+darkMode:
+    other: Tryb ciemny
+
+list:
+    page:
+        one: "{{ .Count }} strona"
+        two: "{{ .Count }} strony"
+        three: "{{ .Count }} strony"
+        four: "{{ .Count }} strony"
+        other: "{{ .Count }} stron"
+
+    section:
+        other: Sekcja
+
+    subsection:
+        one: Podsekcja
+        other: Podsekcje
+
+article:
+    relatedContents:
+        other: Powiązane tresći
+    lastUpdatedOn:
+        other: Data ostaniej aktualizacji
+
+notFound:
+    title:
+        other: Nie znaleziono
+    subtitle:
+        other: strona nie istnieje
+
+widget:
+    archives:
+        title:
+            other: Archiwum
+        more:
+            other: Więcej
+    tagCloud:
+        title:
+            other: Tagi
+
+search:
+    title:
+        other: Szukaj
+    placeholder:
+        other: Wyszukaj...
+    resultTitle:
+        other: "#PAGES_COUNT wyników"
+
+footer:
+    builtWith:
+        other: Built with {{ .Generator }}
+    designedBy:
+        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
