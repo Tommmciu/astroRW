@@ -22,4 +22,3 @@ Skład zespołu:
 * Mateo
 * Adrian
 * Tomek
-* Spidi

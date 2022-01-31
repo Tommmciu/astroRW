@@ -22,4 +22,3 @@ Team:
 * Mateo
 * Adrian
 * Tomek
-* Spidi
