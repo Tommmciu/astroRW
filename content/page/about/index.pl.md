@@ -22,3 +22,4 @@ Skład zespołu:
 * Mateo
 * Adrian
 * Tomek
+* Kasia
